@@ -1,0 +1,162 @@
+.titleBar{
+position: relative;
+height: 40px;
+clear: top;
+float: top;
+text-align: center;
+font-family: Verdana;
+font-weight: bold;
+font-size: 36px;
+color: #22316C;
+background-color: white;
+padding-bottom: 15px;
+border-bottom: 1px solid #dadada;
+}
+
+.centering {
+width: 100%;
+text-align:center;
+border: 1px solid gray;
+border-width: 0px 0px;
+}
+
+table.tMatrix {
+text-align: center;
+font-family: Verdana;
+font-weight: normal;
+font-size: 11px;
+color: #404040;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+background-color: #fafafa;
+border-bottom: 1px solid #6699CC;
+border-right: 1px solid #6699CC;
+border-collapse: collapse;
+border-spacing: 0px;
+}
+
+td {
+background-color: #E0FFFF;
+border-bottom: 1px solid #CCCCCC;
+border-right: 1px solid #CCCCCC;
+cursor: pointer;
+text-align: left;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: normal;
+font-size: 10px;
+color: #404040;
+width: 5px;
+}
+
+td.tableCorner {
+border-bottom: 1px solid #6699CC;
+border-right: 1px solid #6699CC;
+border-left: 0px solid #6699CC;
+border-top: 0px solid #6699CC;
+background-color: white;
+cursor: default;
+margin-bottom: 1px;
+text-align: center;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: bold;
+font-size: 11px;
+color: #22316C;
+width: 12%;
+}
+
+td.tableTitleVert {
+border-bottom: 1px solid #6699CC;
+border-right: 1px solid #6699CC;
+border-left: 1px solid #6699CC;
+border-top: 1px solid #6699CC;
+background-color: #BEC8D1;
+cursor: default;
+text-align: center;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: bold;
+font-size: 11px;
+color: #404040;
+width: 12%;
+}
+
+td.titleOfWeek {
+border-bottom: 1px solid #6699CC;
+border-right: 1px solid #6699CC;
+border-left: 1px solid #6699CC;
+border-top: 1px solid #6699CC;
+background-color: #BEC8D1;
+text-align: center;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: bold;
+font-size: 11px;
+color: #404040;
+width: 5px;
+}
+
+td.titleOfWeekend {
+border-bottom: 1px solid #6699CC;
+border-right: 1px solid #6699CC;
+border-left: 1px solid #6699CC;
+border-top: 1px solid #6699CC;
+background-color: #88ACE0;
+text-align: center;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: bold;
+font-size: 11px;
+color: #404040;
+width: 5px;
+}
+
+td.dayOfWeek {
+background-color: #E0FFFF;
+cursor: pointer;
+text-align: left;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: normal;
+font-size: 10px;
+color: #404040;
+width: 5px;
+}
+
+td.dayOfWeekend {
+background-color: #BBFFFF;
+cursor: default;
+text-align: left;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: normal;
+font-size: 10px;
+color: #404040;
+width: 5px;
+}
+
+td.cellBooked {
+background-color: #00FF66;
+cursor: pointer;
+text-align: left;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: normal;
+font-size: 10px;
+color: #404040;
+width: 5px;
+}
+
+td.cellTaken {
+background-color: #FF9F9F;
+cursor: default;
+text-align: left;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: normal;
+font-size: 10px;
+color: #404040;
+width: 5px;
+}

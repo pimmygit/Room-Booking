@@ -1,0 +1,181 @@
+.titleBar{
+position: relative;
+height: 40px;
+clear: top;
+float: top;
+text-align: center;
+font-family: Verdana;
+font-weight: bold;
+font-size: 36px;
+color: #22316C;
+background-color: white;
+padding-bottom: 15px;
+border-bottom: 1px solid #dadada;
+background: url(images/ibmRoomBookingLogo.png) no-repeat center top;
+}
+
+#topbar .title{
+font-weight: bold;
+background: black url(titlebg.jpg) repeat-x top left;
+color: white;
+border-bottom: 1px solid #7b9bc4;
+margin: 1em 0;
+text-transform: uppercase;
+padding-left: 2px;
+}
+
+#sidebar{
+background-color: white;
+clear: left;
+width: 150px;
+margin-right: 5px;
+float: left;
+margin-top: 1em;
+}
+
+#sidebar .title{
+font-weight: bold;
+background: black url(titlebg.jpg) repeat-x top left;
+color: white;
+border-bottom: 1px solid #7b9bc4;
+margin: 1em 0;
+text-transform: uppercase;
+padding-left: 2px;
+}
+
+.buttons{
+list-style-type: none;
+margin: 0;
+margin-bottom: 8px;
+padding: 0;
+}
+
+.buttons li{
+padding-bottom: 2px;
+}
+
+.buttons li a{
+color: #22316C;
+display: block;
+padding: 2px 0;
+padding-left: 19px;
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.buttons li a:visited{
+color: #22316C;
+}
+
+.buttons a:hover{
+background-color: #C3E4ED;
+color: #000033;
+}
+
+#maincontainer {
+text-align: center;
+display: table;
+vertical-align: middle;
+width: 85%;
+height: 75%;
+padding: 50px 0;
+background: white;
+margin: 0 auto;
+}
+#maincontainer * {vertical-align: middle;}
+#maincontainerVertCenter {display: table-cell;}
+
+/* IE comaptibility -> START */
+p {margin: 1em 0;} /* IE's collapsing wierdness */
+
+#mainContainer {
+#width: 100%;
+#height: auto; /* IE7 */
+#_height: 90%; /* IE5/6 */
+}
+#mainContainer i {
+#display: inline-block;
+#min-height: 90%; /* IE7 */
+#_height: 100%; /* IE5/6 */
+}
+#mainContainerVertCenter, #centerPanel {
+#display: inline-block;
+#width: 100%;
+}
+#mainContainerVertCenter {
+/* this is part 2 and what makes inline-block work on block elements */
+#display: inline;
+}
+/* IE comaptibility -> END */
+
+.fr {
+width: 100px;
+height: 50px;
+border: 3px solid #000;
+float: right;
+margin: 0 0 10px 10px;
+}
+
+.formPanel{
+width: 450px;
+height: 300px;
+background-color: white;
+border: 1px solid gray;
+border-width: 0px 0px;
+}
+.formPanel .inputbox{
+width: 100%;
+border: 1px solid gray;
+}
+.formPanel .formButtons{
+border: 1px solid black;
+}
+.formPanel .formButtons:hover{
+background-color: #A9A9A9;
+color: #000033;
+}
+
+.infoPanel {
+width: 450px;
+height: 100px;
+background-color: white;
+font-face: Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 16px;
+color: #22316C;
+border: 1px solid gray;
+border-width: 0px 0px;
+border-bottom: 1px solid gray;
+}
+.infoTitle {
+font-face: Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 16px;
+color: #22316C;
+}
+.regularText {
+font-face: Verdana, Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #22316C;
+}
+
+.textField {
+width: 200px;
+background-color: white;
+font-face: Verdana, Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #22316C;
+border: 1px solid gray;
+border-width: 0px 0px;
+}
+.textArea {
+width: 400px;
+background-color: white;
+font-face: Verdana, Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #22316C;
+border: 1px solid gray;
+border-width: 0px 0px;
+}
